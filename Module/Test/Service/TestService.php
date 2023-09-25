@@ -102,6 +102,16 @@ class TestService
 
     public function stop(int $clientId): void
     {
+        if (!isset($this->map[$clientId]))
+        {
+            return;
+        }
+        $data = $this->map[$clientId];
+        unset($this->map[$clientId]);
+        foreach ($data as $cid => $_)
+        {
+            Coroutine::cancel($cid);
+        }
         unset($this->map[$clientId]);
     }
 }

@@ -6,6 +6,16 @@ imi 框架：<https://www.imiphp.com>
 
 imi 文档：<https://doc.imiphp.com>
 
+## 涉及文件
+
+WebSocket 控制器：`Module/Test/WebSocketController/TestController.php`
+
+Http 控制器：`Module/Test/ApiController/IndexController.php`
+
+服务层代码：`Module/Test/Service/TestService.php`
+
+监听连接关闭事件：`Module/Test/Listener/OnClose.php`
+
 ## 调试
 
 WebSocket 调试工具：<http://www.websocket-test.com/>
