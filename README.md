@@ -20,7 +20,7 @@ Http 控制器：`Module/Test/ApiController/IndexController.php`
 
 WebSocket 调试工具：<http://www.websocket-test.com/>
 
-**连接：**ws://127.0.0.1:8081/ws
+**连接：** `ws://127.0.0.1:8081/ws`
 
 **开始监听：**
 
@@ -36,7 +36,7 @@ WebSocket 调试工具：<http://www.websocket-test.com/>
 {"action": "stop"}
 ```
 
-**访问接口记录日志：**<http://127.0.0.1:8081/api>
+**访问接口记录日志：** <http://127.0.0.1:8081/api>
 
 ## 社群
 
@@ -44,6 +44,6 @@ WebSocket 调试工具：<http://www.websocket-test.com/>
 
 **微信群：**（请注明来意）
 
-<img src="res/wechat.png" alt="imi" width="256px" />
+<img src="https://cdn.jsdelivr.net/gh/imiphp/imi@2.1/res/wechat.png" alt="imi" width="256px" />
 
 **打赏赞助：**<https://www.imiphp.com/donate.html>
